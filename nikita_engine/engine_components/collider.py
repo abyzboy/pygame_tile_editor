@@ -1,11 +1,4 @@
-from engine_components.transform import Transform
-
-class Shape:
-    def dot_on_shape(self, other_pos) -> bool:
-        pass
-
-
-class SquareCollider(Shape):
+class SquareCollider:
     def __init__(self, x : int, y : int, width : int, height : int):
         self.x = x
         self.y = y
